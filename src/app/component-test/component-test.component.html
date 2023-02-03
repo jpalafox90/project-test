@@ -1,0 +1,25 @@
+<p>component-test works!</p>
+
+<h1>nada</h1>
+
+{{titulo}}
+
+<div class="container">
+
+<table class="table table-hover">
+  <thead>
+      <th>categoria Id</th>
+      <th>categoria Nombre</th>
+      <th>categoria Observaciones</th>
+  </thead>
+  <tbody>
+      <tr *ngFor="let categoria of categorias">
+          <td>{{categoria.CAT_ID}}</td>
+          <td>{{categoria.CAT_NOMBRE}}</td>
+          <td>{{categoria.CAT_OBS}}</td>
+      </tr>
+  </tbody>
+</table>
+
+<button class="btn btn-danger">boton bootstrap</button>
+</div>
